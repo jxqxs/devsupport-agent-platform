@@ -1,0 +1,19 @@
+# Maven 编译结果
+target/
+
+# Java 编译结果
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Go
+llm-gateway-go/bin/
+
+# 编辑器
+.idea/
+*.iml
+.vscode/
