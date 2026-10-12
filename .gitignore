@@ -17,3 +17,7 @@ llm-gateway-go/bin/
 .idea/
 *.iml
 .vscode/
+
+# 上游文档克隆。许可证和 commit 记在 docs/data-license，正文不提交。
+data/raw/docker-docs/
+data/raw/kubernetes-docs/

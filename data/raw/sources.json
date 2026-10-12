@@ -1,0 +1,89 @@
+{
+  "download_date": "2026-10-10",
+  "unified_schema": {
+    "document_id": "产品加来源内的稳定编号",
+    "source_type": "official_doc | github_issue | stackoverflow",
+    "product": "docker | kubernetes",
+    "title": "",
+    "content": "",
+    "source_url": "",
+    "license": "",
+    "source_version": "文档用 commit SHA，Issue 用 updated_at",
+    "tags": []
+  },
+  "official_docs": [
+    {
+      "source_type": "official_doc",
+      "product": "docker",
+      "path": "data/raw/docker-docs/content",
+      "patterns": ["**/*.md", "**/*.mdx"],
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/docker/docs",
+      "source_version": "18bbfeeb249da011f359d558dba84c4b6dc3a335"
+    },
+    {
+      "source_type": "official_doc",
+      "product": "kubernetes",
+      "path": "data/raw/kubernetes-docs/content/en",
+      "patterns": ["**/*.md"],
+      "license": "CC-BY-4.0",
+      "source_url": "https://github.com/kubernetes/website",
+      "source_version": "b2e60d8de29742f310420999423fd50f87a6b6b6",
+      "language": "en"
+    },
+    {
+      "source_type": "official_doc",
+      "product": "kubernetes",
+      "path": "data/raw/kubernetes-docs/content/zh-cn",
+      "patterns": ["**/*.md"],
+      "license": "CC-BY-4.0",
+      "source_url": "https://github.com/kubernetes/website",
+      "source_version": "b2e60d8de29742f310420999423fd50f87a6b6b6",
+      "language": "zh-cn"
+    }
+  ],
+  "github_issues": [
+    {
+      "source_type": "github_issue",
+      "product": "docker",
+      "repo": "docker/compose",
+      "path": "data/raw/github-issues/docker__compose.jsonl",
+      "source_url_field": "html_url",
+      "content_field": "body"
+    },
+    {
+      "source_type": "github_issue",
+      "product": "docker",
+      "repo": "moby/moby",
+      "path": "data/raw/github-issues/moby__moby.jsonl",
+      "source_url_field": "html_url",
+      "content_field": "body"
+    },
+    {
+      "source_type": "github_issue",
+      "product": "kubernetes",
+      "repo": "kubernetes/kubernetes",
+      "path": "data/raw/github-issues/kubernetes__kubernetes.jsonl",
+      "source_url_field": "html_url",
+      "content_field": "body"
+    }
+  ],
+  "stackoverflow": [
+    {
+      "source_type": "stackoverflow",
+      "product": "docker",
+      "path": "data/raw/stackoverflow/docker.jsonl",
+      "license": "CC-BY-SA-4.0",
+      "source_url_field": "link",
+      "content_field": "body"
+    },
+    {
+      "source_type": "stackoverflow",
+      "product": "kubernetes",
+      "path": "data/raw/stackoverflow/kubernetes.jsonl",
+      "license": "CC-BY-SA-4.0",
+      "source_url_field": "link",
+      "content_field": "body"
+    }
+  ]
+}
